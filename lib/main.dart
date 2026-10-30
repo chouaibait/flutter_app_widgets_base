@@ -41,17 +41,23 @@ class MainApp extends StatelessWidget {
       ],
     ),
     Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
 Icon(Icons.home, size: 40, color: Colors.blue),
 Icon(Icons.favorite, size: 40, color: Colors.red),
 Icon(Icons.star, size: 40, color: Colors.amber),
+Icon(Icons.settings, size: 40, color: Colors.grey),
     ],
      ), 
      Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-Text('Première ligne'),
-Text('Deuxième ligne'),
+Text('Titre principal', style: TextStyle(fontSize: 26)),
+SizedBox(height: 20),
+Text('Sous-titre ou description'),
+Icon(Icons.thumb_up, color: Colors.green, size: 40),
      ],   
   ), // Deuxième Column
   ],
