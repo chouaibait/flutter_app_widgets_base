@@ -48,6 +48,12 @@ Icon(Icons.favorite, size: 40, color: Colors.red),
 Icon(Icons.star, size: 40, color: Colors.amber),
     ],
      ), 
+     Column(
+      children: [
+Text('Première ligne'),
+Text('Deuxième ligne'),
+     ],   
+  ), // Deuxième Column
   ],
   ),
 ),
